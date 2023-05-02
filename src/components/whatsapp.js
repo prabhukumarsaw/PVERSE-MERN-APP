@@ -3,7 +3,7 @@ import wp from '../img/LOGO/whatsapp-svgrepo-com.svg';
 const WhatsAppWidget = () => {
   const openWhatsApp = () => {
     // Replace the phoneNumber variable with your WhatsApp number
-    const phoneNumber = '9102041348';
+    const phoneNumber = '+919102041348';
     const message = 'Hello!';
 
     const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
