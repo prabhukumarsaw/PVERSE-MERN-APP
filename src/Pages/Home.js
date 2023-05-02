@@ -24,7 +24,7 @@ const Home = () => {
             <div className="col-lg-6 px-md-5 text-center text-lg-left">
                 <h3 className="display-2 text-uppercase mb-3">GET BEST QUALITY WEBSITE IN 12 HOURS</h3>
                 <h5 className="text-justify mb-4">I welcome you to share your thoughts with me, as well. Let the overthinking begin!.</h5>
-                <NavLink  to="#" className="button-green" style={{ textDecoration: 'none' }}>Learn More</NavLink>
+                <NavLink  to="#" className="button-green" style={{ textDecoration: 'none' }}>Get in Touch Now</NavLink>
             </div>
             <div className="col-lg-6 px-0 text-right">
                 <img className="img-fluid mt-5 mt-lg-0" src={header} alt=""/>

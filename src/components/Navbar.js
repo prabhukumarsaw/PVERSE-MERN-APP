@@ -1,5 +1,6 @@
 import React from 'react'
 import "../App.css";
+import WhatsAppWidget from './whatsapp';
 import { NavLink } from 'react-router-dom';
 import Logo from "../img/LOGO/logo.png";
 
@@ -7,7 +8,7 @@ const Navbar = () => {
   return (
     <>
 
-    <div className="container-fluid bg-white position-relative">
+    <div className="container-fluid bg-black position-relative">
         <nav className="navbar navbar-expand-lg  navbar-light py-3 py-lg-0">
             <NavLink to="/" className="navbar-brand ">
                 <img src={Logo} alt="" width="150px" height="100px"/>
@@ -37,7 +38,7 @@ const Navbar = () => {
         </nav>
     </div>
     
-    
+    <WhatsAppWidget/>
     </>
   )
 }

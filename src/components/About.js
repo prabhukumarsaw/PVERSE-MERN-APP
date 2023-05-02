@@ -12,7 +12,7 @@ const About = () => {
                 <div className="col-lg-6">
                     <img className="img-fluid mb-4 mb-lg-0" src={about} alt=""/>
                 </div>
-                <div className="col-lg-4 ">
+                <div className="col-lg-6">
                     <h1 className="display-4 text-uppercase mb-2">
                         I Build Websites Designed For Sales</h1>
                    <p className="text mb-2">Hi there! My name is Prabhu Kumar and I specialize in creating professional websites & Mobile Application since 2018. </p>
