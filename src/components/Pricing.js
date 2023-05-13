@@ -10,7 +10,7 @@ const Pricing = () => {
             <div className="row">
                 <div className="col-lg-4 mb-2">
                     <div className="bg-why rounded text-center pt-5 mt-lg-5 mb-4">
-                    <h3 className=" text-uppercase" style={{color:'red'}}>$49/-</h3><i>(Starting Price)</i><br/>
+                    <h3 className=" text-uppercase" style={{color:'#FFAA17'}}>$49/-</h3><i>(Starting Price)</i><br/>
                         <h2 className="text-uppercase">DIGITAL  MARKETING</h2>
                         <small className="text-uppercase text-body mb-5">(Price Subject to change depending on the scope of work)</small>
                         <br/><br/>
@@ -32,7 +32,7 @@ const Pricing = () => {
 
                 <div className="col-lg-4 mb-2">
                     <div className="bg-why rounded text-center pt-5 mb-4">
-                    <h3 className=" text-uppercase" style={{color:'red'}}>$59/-</h3><i>(Starting Price)</i>
+                    <h3 className=" text-uppercase" style={{color:'#FFAA17'}}>$59/-</h3><i>(Starting Price)</i>
                     <br/>
                         <h3 className="text-uppercase text-white">CUSTOM WEBSITE  DESIGN</h3>
                         <small className="text-uppercase text-secondary mb-5">(Price Subject to change depending on the scope of work)</small>
@@ -54,7 +54,7 @@ const Pricing = () => {
                 </div>
                 <div className="col-lg-4 mb-2">
                     <div className="bg-why rounded text-center pt-5 mt-lg-5 mb-4">
-                        <h3 className=" text-uppercase" style={{color:'red'}}>$69/-</h3><i>(Starting Price)</i><br/>
+                        <h3 className=" text-uppercase" style={{color:'#FFAA17'}}>$69/-</h3><i>(Starting Price)</i><br/>
                         <h3 className=" text-uppercase">MOBILE APPLICATION</h3>
                         <small className="text-uppercase text-body mb-5">(Price Subject to change depending on the scope of work)</small>
                         <br/><br/>

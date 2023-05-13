@@ -22,11 +22,13 @@ const Contact = () => {
 
 
             <div className="container-fluid py-5 px-0">
-        
+            
         <div className="row mx-0 justify-content-center">
+            
             <div className="col-lg-6 col-md-8 col-sm-10 px-0">
                 <div className="contact-form bg-contact rounded p-5">
                     <div id="success"></div>
+                    <h3 className='text-center'>Estimate your Project?</h3><br/>
                     <form name="sentMessage" id="contactForm" >
                         <div className="form-row">
                             <div className="col-md-6">

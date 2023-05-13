@@ -3,8 +3,13 @@ import "../App.css";
 import WhatsAppWidget from './whatsapp';
 import { NavLink } from 'react-router-dom';
 import Logo from "../img/LOGO/logo.png";
+import { useAuth0 } from "@auth0/auth0-react";
 
 const Navbar = () => {
+
+const { loginWithRedirect, logout, isAuthenticated, user } = useAuth0();
+      
+
   return (
     <>
 
@@ -28,11 +33,13 @@ const Navbar = () => {
                     <NavLink to="/contact" className="nav-item nav-link">Contact</NavLink>
                 </div>
                 <div className="d-none d-lg-flex align-items-center pl-4">
-                    <i className="fa fa-2x fa-mobile-alt text-primary mr-3"></i>
-                    <div>
-                        <h6 className="text-body text-uppercase mb-1"><small>Call Anytime</small></h6>
-                        <h6 className="m-0">+012 345 6789</h6>
+                    <div> {isAuthenticated && <h6 className="text-body text-uppercase mb-1"><small>{user.name}</small></h6>}
+                        
+                        
                     </div>
+                    {isAuthenticated ? <button  className="nav-item nav-link" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Login</button> : <button  className="nav-item nav-link" onClick={() =>loginWithRedirect()}>Login</button>}
+                    
+                    
                 </div>
             </div>
         </nav>
