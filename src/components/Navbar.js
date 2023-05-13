@@ -37,7 +37,7 @@ const { loginWithRedirect, logout, isAuthenticated, user } = useAuth0();
                         
                         
                     </div>
-                    {isAuthenticated ? <button  className="nav-item nav-link" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Login</button> : <button  className="nav-item nav-link" onClick={() =>loginWithRedirect()}>Login</button>}
+                    {isAuthenticated ? <button  className="nav-item nav-link" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Logout</button> : <button  className="nav-item nav-link" onClick={() =>loginWithRedirect()}>Login</button>}
                     
                     
                 </div>
