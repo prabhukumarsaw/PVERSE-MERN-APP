@@ -33,13 +33,12 @@ const { loginWithRedirect, logout, isAuthenticated, user } = useAuth0();
                     <NavLink to="/contact" className="nav-item nav-link">Contact</NavLink>
                 </div>
                 <div className="d-none d-lg-flex align-items-center pl-4">
-                { isAuthenticated &&
-                    <div>  <h6 className="text-body text-uppercase mb-1"><small>{user.name}</small></h6> </div>}
+                { isAuthenticated && <div>  <h6 className="text-body text-uppercase mb-1"><small>{user.name}</small></h6> </div>}
 
-                    { isAuthenticated ? (
-                    <button  className="nav-item nav-link" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Logout</button>)
+                  
+                    <button  className="nav-item nav-link" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Logout</button>
 
-                    : (<button  className="nav-item nav-link" onClick={() =>loginWithRedirect()}>Login</button>)}
+            <button  className="nav-item nav-link" onClick={() =>loginWithRedirect()}>Login</button>
                     
                     
                 </div>
