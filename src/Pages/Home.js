@@ -22,7 +22,7 @@ const Home = () => {
     <div className="container-fluid bgimg1 py-5 px-0" >
         <div className="row mx-0  align-items-center">
             <div className="col-lg-6 px-md-5 text-center text-lg-left">
-                <h3 className="display-2 text-uppercase mb-3">GET BEST QUALITY WEBSITE IN 12 HOURS</h3>
+                <h3 className="display-2 text-uppercase mb-3">Build Future-Ready Digital Solutions with Confidence</h3>
                 <h5 className="text-justify mb-4">I welcome you to share your thoughts with me, as well. Let the overthinking begin!.</h5>
                 <NavLink  to="#" className="button-green" style={{ textDecoration: 'none' }}>Get in Touch Now</NavLink>
             </div>

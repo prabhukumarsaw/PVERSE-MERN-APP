@@ -14,11 +14,10 @@ const About = () => {
                 </div>
                 <div className="col-lg-6 ">
                     <h1 className="display-4 text-uppercase mb-2">
-                        I Build Websites Designed For Sales</h1>
+                    Hire me solo or with my expert team</h1>
                    <p className="text mb-2">Hi there! My name is Prabhu Kumar and I specialize in creating professional websites & Mobile Application since 2018. </p>
                     <p className="text mb-2">
-                        I have finished 480+ overall orders and have racked up 300+ reviews. With my background in web design and digital marketing,
-                         I have the skills and knowledge to help businesses of all sizes establish and grow their online presence.</p>
+                    Hi, I’m Prabhu Kumar, a Full-Stack Product Developer with over 7 years of experience delivering 480+ projects, from hospital websites to AI-powered apps. Whether you need a robust e-commerce platform, a scalable POS system, a custom mobile app, or end-to-end software development, I’ve got you covered—from Figma design to cloud deployment.</p>
                         
                          
                          <p className="text mb-2">
